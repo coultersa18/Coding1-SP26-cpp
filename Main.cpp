@@ -18,7 +18,7 @@ int main() {
     //  assign what player types as the value of playerName
     cin >> playerName;
 
-    playerName[0] = toupper(playerName[0]);     // [0] = location of character within string, toupper = changes to uppercase
+    playerName[2] = toupper(playerName[0]);     // [0] = specifies which character to use, toupper = changes to uppercase
 
     // greet the player by entered name
     cout << "Hello " << playerName << "." << endl;
